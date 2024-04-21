@@ -58,3 +58,17 @@ caso de transferências, há que se registrar as contas de origem e destino dos 
 taxonomia de classificação pode possuir um número indeterminado de grupamentos, mas
 estão organizadas em dois grandes grupos: Receitas e Despesas. As Receitas classificam os
 depósitos e as Despesas classificam as retiradas.
+ 
+## Exercício 4 - Conferências
+
+>Uma conferência científica avalia em cada uma de suas edições anuais um conjunto de
+trabalhos científicos. Cada trabalho enviado é registrado com seu título, autores, resumo
+e o nome do documento .pdf que contém o trabalho. Cada autor deve ser registrado com
+seu nome, e-mail e instituição de ensino à qual pertence. Um comitê de avaliação,
+composto por professores ligados à conferência, avalia os trabalhos enviados com um
+conceito no intervalo [A,E]. Os trabalhos com conceito médio “B” são selecionados para
+publicação nos anais da edição da conferência e seus autores devem enviar uma versão
+final do texto. Obs.: Os atributos das entidades podem não ter sido explicitamente
+enumerados no cenário descrito, por isso proponha atributos que eventualmente tenham
+sido omitidos, mas que sejam relevantes para o projeto do BD. Não é necessário propor
+todos os atributos necessários, somente os mais relevantes.
