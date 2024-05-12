@@ -72,3 +72,15 @@ final do texto. Obs.: Os atributos das entidades podem não ter sido explicitame
 enumerados no cenário descrito, por isso proponha atributos que eventualmente tenham
 sido omitidos, mas que sejam relevantes para o projeto do BD. Não é necessário propor
 todos os atributos necessários, somente os mais relevantes.
+
+## Exercício 5 - Locadora de Veículos
+
+>Uma locadora de veículos possui uma frota organizada por categorias de veículos. Cada modelo de veículo é classificado em uma única categoria. Os valores das diárias de locação são definidos para cada categoria, de forma que dois modelos diferentes que pertencem à mesma categoria têm o mesmo valor de diária. Os clientes podem ou não reservar veículos, mas quando o fazem escolhem uma categoria e o período de locação. Ao alugar o veículo o cliente informa o número da reserva, quando for o caso, ou a categoria que deseja e o período. O valor do aluguel será calculado com base na diária vigente no momento da locação ou da reserva quando informada. Os valores de diárias de locação podem variar a todo momento.
+
+## Exercício 6 - Clínica Veterinária
+
+>Os clientes da clínica encaminham seus animais para tratamento informando seu nome, idade e um relato sobre a saúde do animal. No atendimento inicial, um veterinário diagnostica as enfermidades do animal e o encaminha para o tratamento com um veterinário da clínica. Os casos mais simples são tratados por um único veterinário. Entretanto, nos casos mais graves pode ser necessário uma junta de veterinários para tratar o animal. Os tratamentos são registrados com um relatório de procedimentos executados e medicações prescritas. Os veterinários são contratados de acordo com as enfermidades que ele está habilitado a tratar. Ao final do tratamento, o animal recebe alta.
+
+## Exercício 7 - Rede de hotéis
+
+>Uma rede de hotéis só permite hospedagens mediante reservas. Para fazer uma reserva os clientes precisam informar seus dados pessoais, hotel desejado, período de estadia e quantidade de quartos desejada. Uma hospedagem só poderá se concretizar se o cliente tiver registrado uma reserva para o mesmo hotel e no período desejado. Cada hotel classifica seus quartos em três categorias. Durante a reserva o cliente informa a quantidade de quartos de cada categoria que deseja. 
