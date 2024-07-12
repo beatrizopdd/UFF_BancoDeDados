@@ -84,3 +84,18 @@ todos os atributos necessários, somente os mais relevantes.
 ## Exercício 7 - Rede de hotéis
 
 >Uma rede de hotéis só permite hospedagens mediante reservas. Para fazer uma reserva os clientes precisam informar seus dados pessoais, hotel desejado, período de estadia e quantidade de quartos desejada. Uma hospedagem só poderá se concretizar se o cliente tiver registrado uma reserva para o mesmo hotel e no período desejado. Cada hotel classifica seus quartos em três categorias. Durante a reserva o cliente informa a quantidade de quartos de cada categoria que deseja. 
+
+## Exercício 8 - Biblioteca
+
+>Uma biblioteca possui um acervo de títulos para empréstimo. Quando um usuário solicita um título o bibliotecário empresta um dos exemplares do título solicitado, se houver disponibilidade, e anota os dados do empréstimo. Ao devolver o livro o bibliotecário encerra o empréstimo do livro.
+
+## Exercício 9 - Empresa
+
+Empregado(pnome, minicial, unome, <u>ssn</u>, endereco, sexo, salario, superssn, dno)<br>
+Departamento(dnome, <u>dnumero</u>, gerssn, gerdatainicio)<br>
+Depto_Localizacoes(<u>dnumero</u>, <u>dlocalizacaao</u>)<br>
+Projeto(pjnome, <u>pnumero</u>, plocalizacao, dnum)<br>
+Trabalha_Em(<u>essn</u>, <u>pno</u>, horas)<br>
+Dependente(<u>essn</u>, <u>nome-dependente</u>, sexo, datanasc, parentesco)
+
+
