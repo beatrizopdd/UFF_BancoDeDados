@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Introdução}{2}{}%
+\contentsline {section}{\numberline {2}Esquema}{3}{}%
+\contentsline {section}{\numberline {3}Análise das Consultas}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Clientes com nome contendo "João"}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Compras feitas após o dia 1º de janeiro de 2023}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Produtos com preço unitário acima de 100,00}{4}{}%
+\contentsline {subsection}{\numberline {3.4}Devoluções realizadas antes do dia 1º de junho de 2023}{4}{}%
+\contentsline {subsection}{\numberline {3.5}Empresas colaboradoras localizadas em um endereço contendo "Centro"}{4}{}%
+\contentsline {subsection}{\numberline {3.6}Clientes cujo telefone começa com "21"}{4}{}%
+\contentsline {subsection}{\numberline {3.7}Itens de compra que possuem uma quantidade maior que 5}{4}{}%
+\contentsline {subsection}{\numberline {3.8}Entregadores (empresas colaboradoras) que participaram de uma entrega no ano de 2024}{4}{}%
+\contentsline {subsection}{\numberline {3.9}Compras feitas por clientes com salário superior a 5.000,00}{4}{}%
+\contentsline {subsection}{\numberline {3.10}Produtos fornecidos por empresas cujo nome contém "Tech"}{4}{}%
+\contentsline {subsection}{\numberline {3.11}Clientes que não possuem endereço registrado (endereço nulo)}{4}{}%
+\contentsline {subsection}{\numberline {3.12}Devoluções feitas para itens de compras de produtos cujo preço unitário é maior que 200,00}{4}{}%
+\contentsline {subsection}{\numberline {3.13}Clientes que fizeram pelo menos uma compra em fevereiro de 2023}{4}{}%
+\contentsline {subsection}{\numberline {3.14}Entregas que ocorreram após as 01/01/2001}{4}{}%
+\contentsline {subsection}{\numberline {3.15}Registros de Pessoas Jurídicas com lucro superior a 1.000,00}{4}{}%
+\contentsline {section}{\numberline {4}Conclusão}{5}{}%

@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath}
+\begin{document}
+	
+% Folha de rosto
+\begin{titlepage}
+	\centering
+	\vspace{2cm}
+	
+	{UNIVERSIDADE FEDERAL FLUMINENSE} \\ [0.1cm]
+	{BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO} \\ [0.1cm]
+	{TCC00288 - BANCO DE DADOS II}
+	
+	\vfill
+	
+	{\Large \bfseries Avaliação Continuada 1: Estudo de Índices}
+	
+	\vfill
+	
+	{BEATRIZ DE OLIVEIRA PIEDADE}
+	
+	\vfill
+	{NITERÓI} \\
+	{2024}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+\section{Esquema}
+
+\begin{flushleft}
+	Cliente (\underline{id}, nome, endereco, telefone) \\[0.2cm]
+	EmpresaColaboradora (\underline{id}, nome, cnpj, endereco, telefone) \\[0.2cm]
+	Pf (\underline{id}, cpf, salario) \\
+	\quad \quad \quad \quad id REFERENCIA Cliente(id) \\[0.2cm]
+	Pj (\underline{id}, cnpj, lucro) \\
+	\quad \quad \quad \quad id REFERENCIA Cliente(id) \\[0.2cm]
+	Compra (\underline{id}, idCliente, data, hora, nfe) \\
+	\quad \quad \quad \quad idCliente REFERENCIA Pf(id) \\[0.2cm]
+	Entrega (\underline{id}, data, idEntregador, idCompra) \\
+	\quad \quad \quad \quad idEntregador REFERENCIA EmpresaColaboradora(id) \\
+	\quad \quad \quad \quad idCompra REFERENCIA Compra(id) \\[0.2cm]
+	Produto (\underline{id}, nome, descricao, precoUnitario, idFornecedor) \\
+	\quad \quad \quad \quad idFornecedor REFERENCIA EmpresaColaboradora(id) \\[0.2cm]
+	ItemCompra (\underline{id}, idProduto, idCompra, quantidade) \\
+	\quad \quad \quad \quad idProduto REFERENCIA Produto(id) \\
+	\quad \quad \quad \quad idCompra REFERENCIA Compra(id) \\[0.2cm]
+	Devolucao (\underline{id}, data, idItemCompra) \\
+	\quad \quad \quad \quad idItemCompra REFERENCIA ItemCompra(id) \\
+\end{flushleft}
+
+\newpage
+\section{Análise das Consultas}
+
+\subsection{Clientes com nome contendo "João"}
+
+\subsection{Compras feitas após o dia 1º de janeiro de 2023}
+\subsection{Produtos com preço unitário acima de 100,00}
+\subsection{Devoluções realizadas antes do dia 1º de junho de 2023}
+\subsection{Empresas colaboradoras localizadas em um endereço contendo "Centro"}
+\subsection{Clientes cujo telefone começa com "21"}
+\subsection{Itens de compra que possuem uma quantidade maior que 5}
+\subsection{Entregadores (empresas colaboradoras) que participaram de uma entrega no ano de 2024}
+\subsection{Compras feitas por clientes com salário superior a 5.000,00}
+\subsection{Produtos fornecidos por empresas cujo nome contém "Tech"}
+\subsection{Clientes que não possuem endereço registrado (endereço nulo)}
+\subsection{Devoluções feitas para itens de compras de produtos cujo preço unitário é maior que 200,00}
+\subsection{Clientes que fizeram pelo menos uma compra em fevereiro de 2023}
+\subsection{Entregas que ocorreram após as 01/01/2001}
+\subsection{Registros de Pessoas Jurídicas com lucro superior a 1.000,00}
+
+\newpage
+\section{Conclusão}
+\end{document}
